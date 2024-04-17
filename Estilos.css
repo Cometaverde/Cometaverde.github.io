@@ -15,7 +15,7 @@ body::after {
     content: ""; /* Añade contenido a ::after para que pueda tener dimensiones */
     background-image: url('fondo.jpeg'); /* Establece la imagen de fondo */
 background-position:center;
-    opacity: 0.4; /* Ajusta el valor según la opacidad deseada (0 = completamente transparente, 1 = completamente opaco) */
+    opacity: 0.5; /* Ajusta el valor según la opacidad deseada (0 = completamente transparente, 1 = completamente opaco) */
     position: absolute; /* Establece posición absoluta para que cubra todo el body */
     top: 0;
     left: 0;
