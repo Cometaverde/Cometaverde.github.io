@@ -39,7 +39,7 @@ header {
 
 }
 aside {
-       width: 15%; /* Ancho del aside */
+       width: 18%; /* Ancho del aside */
         float: left; /* Alineación a la izquierda */
         margin-right: 20px; /* Margen derecho para separarlo del contenido principal */
         background-color: #f0f0f0; /* Color de fondo */
