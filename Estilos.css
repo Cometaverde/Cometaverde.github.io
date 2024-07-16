@@ -24,7 +24,7 @@ body::after {
     z-index: -1; /* Envía ::after detrás de todos los demás elementos */
 }
 header {
-    background-color: ;
+    background-color:#f0f0f0;
     color: #555555;
     text-align: center;
     padding: 25px 0;
@@ -82,7 +82,7 @@ aside {
             cursor: pointer;
             font-size: 1.5rem;
             color: black;
-            background-color:wihte;
+            background-color:#f0f0f0;
             border: none;
             padding: 10px 20px;
             border-radius: 10px;
@@ -104,7 +104,7 @@ aside {
     margin: 20px auto;
     padding: 20px;
     color: #555555;
-    background-color: ;
+    background-color:#f0f0f0;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -125,7 +125,7 @@ aside {
 }
 
 footer {
-    background-color: ;
+    background-color:#f0f0f0 ;
     color: #555555;
     text-align: center;
     padding: 7px 0;
