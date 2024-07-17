@@ -1,0 +1,110 @@
+* {/* Reset de estilos */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+ font-family: "Manrope", sans-serif;
+    background-color:#c7ffdc;
+    line-height: 1.6; 
+    position:relative;
+
+    
+}
+header {
+    background-color:#ffffff;
+    color:#006400;
+    text-align: center;
+    padding: 25px 0;
+    display: flex;
+    align-items: center;
+    margin-bottom:5px;
+    border-bottom: 2px solid #e0e0e0; /* Borde inferior */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+
+}
+
+#redes{
+    display:flex;
+    align-items:center;
+    padding:5px 40px 10px
+}
+#contenedor{
+    display: flex;
+}
+#container1 {
+    width: 250px;
+    height: 250px;
+    margin: 20px auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: #006400;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center;
+     }
+ #container2 {
+     width: 250px;
+     height: 250px;
+     margin: 20px auto;
+     margin-top: 50px;
+     padding: 20px;
+    color: #000000;
+    background-color:#ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column; /* Coloca los elementos en una columna */
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    background-image:url(../COMETAVERDE/slider.png ) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    margin-top: 50px;
+    padding: 20px;
+    color: #006400;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+
+.service-list {
+    list-style-type: none;
+}
+
+.service-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.service-item img {
+    margin-right: 10px;
+   margin-left:150px;
+}
+
+footer {
+    background-color:#ffffff ;
+    color: #006400;
+    text-align: center;
+    padding: 7px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    align-items:center; 
+}
